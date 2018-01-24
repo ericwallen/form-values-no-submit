@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="instructions">
+      This demonstrates how to submit a form without a submit event. Place your name in the input field below. When the timer hits zero it will gab that information and display it on the screen.
+    </div>
+    <div id="time-remaining">
+
+    </div>
+    <form id="my-form">
+      <input  id="your-name" placeholder="your name" type="text" name="" value="">
+      <button id="my-button" type="submit" name="button">Submit</button>
+    </form>
+
+    <div id="your-name-is">
+
+    </div>
+
+    <script src="app.js" charset="utf-8"></script>
+
+  </body>
+</html>
+
+
+<style media="screen">
+  body{
+    font-family: sans-serif;
+  }
+  #time-remaining, #your-name-is{
+    font-size: 30px;
+
+  }
+  #time-remaining, #my-form, #your-name-is, #instructions{
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  #instructions{
+    background-color: #efefef;
+    max-width: 300px;
+    padding: 20px;
+    margin: auto;
+  }
+
+  button, input{
+    padding: 10px
+  }
+</style>
